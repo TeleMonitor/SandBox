@@ -35,9 +35,6 @@ String Self(String full_dev_arg)
   }else if(dev_arg.equalsIgnoreCase("Sensor2"))
   {
     return Sensor2();
-  }else if(dev_arg.equalsIgnoreCase("Sensor2"))
-  {
-    return Sensor2();
   }else if(dev_arg.equalsIgnoreCase("LED1_on"))
   {
     digitalWrite(P1_0, HIGH);
